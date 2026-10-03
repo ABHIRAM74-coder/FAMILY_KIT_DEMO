@@ -1,0 +1,103 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Horizontal Card</title>  
+
+    <style>   
+        .main {  
+            display: flex;  
+            justify-content: center;  
+            margin: 20px auto;  
+        }  
+
+        .Container {  
+            width: 1800px;  
+            min-height: 1300px;  
+            padding: 30px;  
+            background-color: lightgray;  
+            border-radius: 10px;  
+        }
+
+        .title {
+            color: blue;
+            font-size: 30px;
+            margin: 0;
+            text-align: left;
+        }
+  
+        .images {  
+            display: flex;  
+            justify-content: center;  
+            align-items: flex-start;  
+            gap: 60px;
+
+            margin-top: 80px;
+        }  
+  
+        .person { 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        } 
+  
+        img {  
+            width: 150px;  
+            height: 150px;  
+            border: 1px solid blue;  
+            border-radius: 50%;  
+            object-fit: cover;  
+        }  
+  
+        h1 {  
+            font-size: 22px;  
+            color: black;  
+            text-align: center;  
+            margin-top: 15px; 
+        }  
+    </style>  
+</head>  
+  
+<body>  
+  
+<div class="main">  
+  
+    <div class="Container">
+
+        <h2 class="title">MYFAMILY</h2>
+  
+        <div class="images">  
+  
+            <div class="person"> 
+                <img  
+                    src="Screenshot 2026-10-02 204944.png" 
+                    alt="Identification Image"> 
+  
+                <h1>V V PRAVEEN KUMAR</h1> 
+            </div> 
+  
+            <div class="person"> 
+                <img 
+                    src="Screenshot 2026-10-02 205402.png" 
+                    alt="Identification Image"> 
+  
+                <h1>V MANJEERA BHARGAVI</h1> 
+            </div> 
+  
+            <div class="person"> 
+                <img 
+                    src="Screenshot 2026-10-02 205541.png" 
+                    alt="Identification Image"> 
+  
+                <h1>V V S ABHIRAM</h1> 
+            </div> 
+  
+        </div>  
+  
+    </div>  
+  
+</div>  
+  
+</body>  
+</html>
